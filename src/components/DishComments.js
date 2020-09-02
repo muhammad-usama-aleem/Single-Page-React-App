@@ -18,12 +18,12 @@ render(){
     //         }
     //     )
     
-//    const selected = this.props.select;
+   const selected = this.props.select;
     return (
         <div>
             
         <h3>Comments</h3>
-            {/* {console.log(selected.comments)} */}
+            {console.log(selected)}
         </div>
             
         )
